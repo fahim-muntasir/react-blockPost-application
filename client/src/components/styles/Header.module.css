@@ -1,0 +1,60 @@
+.headerTop {
+  background-color: #d1eefc;
+  margin: 10px 0;
+  padding: 5px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.headerTitleDiv {
+  width: 180px;
+}
+
+.headerTitleDiv > a {
+  text-decoration: none;
+}
+
+.loginBtn,
+.signup,
+.logout {
+  padding: 5px 8px;
+  cursor: pointer;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+}
+
+.signup {
+  background-color: #22d3ee;
+}
+
+.logout {
+  background-color: #4f46e5;
+}
+
+.navTitle {
+  font-size: 40px;
+  color: black;
+}
+
+.postBtn {
+  padding: 5px 8px;
+  cursor: pointer;
+  background-color: #1e293b;
+  color: white;
+  border: none;
+  margin-right: 10px;
+}
+
+.controllBtn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.controllBtn > span {
+  font-size: 16px;
+  font-weight: bold;
+}

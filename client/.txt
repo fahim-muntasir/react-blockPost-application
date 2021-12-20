@@ -1,0 +1,4 @@
+*** create this files then run this project ***
+
+1. /client/uploads/avatar
+2. /client/uploads/postAvatar

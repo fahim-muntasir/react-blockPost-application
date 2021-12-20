@@ -1,0 +1,33 @@
+.singlePostContainer {
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-column-gap: 20px;
+}
+
+.postBannerImg {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.postBannerImg > img {
+  width: 100%;
+  height: 100%;
+}
+
+.postInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postInfo > span {
+  font-size: 14px;
+  color: rgb(73, 73, 73);
+}
+
+.singlePostDis {
+  margin-top: 10px;
+  text-align: justify;
+  line-height: 28px;
+}
